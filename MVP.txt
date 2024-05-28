@@ -1,0 +1,41 @@
+CHALLENGES
+
+What unexpected challenges have surfaced during your project?
+
+During the implementation phase, we encountered several challenges that were not evident during the research phase. One major hurdle was ensuring robust security measures. While our initial research focused on broad security concepts, the practical application highlighted numerous intricate issues. For instance, securing authentication processes and mitigating vulnerabilities such as SQL injection and cross-site scripting (XSS) required more advanced strategies and a deeper understanding than initially anticipated. Additionally, integrating payment gateways and achieving PCI DSS compliance brought about unexpected complexities.
+
+How have you adapted your plan to address these challenges?
+
+In response to these challenges, we revised our project plan to incorporate more stringent security protocols. This included using libraries like express-validator for input validation, bcryptjs for password hashing, and jsonwebtoken for secure user sessions. We also scheduled regular security audits and integrated penetration testing into our development cycle. More time was allocated to ensure the payment gateway integration met PCI DSS standards, allowing thorough testing and compliance checks.
+
+What unexpected non-technical challenges have you faced?
+
+On the non-technical side, we encountered challenges with communication and coordination, especially with third-party service providers such as Render.com and Clever Cloud. Resolving issues and coordinating support often led to delays. Additionally, aligning the project’s scope and timeline with changing business requirements required continuous stakeholder engagement, adding complexity to project management.
+
+COLLABORATION
+
+Discuss any help you’ve received or provided from/to peers, staff, mentors, etc.
+
+Although I wasn’t working within a formal team, I received significant support from peers and mentors. Peer code reviews were instrumental in identifying potential issues early, thereby enhancing code quality. Mentors provided invaluable guidance on architectural decisions and optimizing database performance. Engaging with developer forums and community groups also offered fresh perspectives and troubleshooting assistance, which was crucial for overcoming specific technical challenges.
+
+
+PROGRESS
+
+On a scale of 1 to 10, how would you rate the progress you’ve made this week?
+
+5
+
+How are you measuring your progress?
+
+Task Implementation: Tracking the completion of tasks and milestones using a project management tool.
+Code Quality: Conducting regular peer reviews.
+Debugging: Monitoring the number of bugs identified and resolved.
+Documentation: Keeping project documentation updated and comprehensive.
+Discuss why you have given your team (or yourself) this rating
+
+This rating reflects the successful implementation and testing of key features such as user authentication, product management, and order processing. However, unforeseen security challenges and integration complexities caused some delays. Despite these obstacles, my dedication to the project has kept it on track, warranting a positive but imperfect rating.
+
+Provide an assessment of whether your project will be completed on time as specified in your Project Proposal and MVP definition.
+
+Given the current progress and the adjustments made to address unforeseen challenges, I am confident that the project will be completed on time as outlined in the Project Proposal and MVP definition.
+
